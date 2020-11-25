@@ -1,0 +1,9 @@
+included in this folder is a collection of tests in json format, you need Postman to run them
+
+Download Postman here: https://www.postman.com/downloads/
+
+Import the file recomed-api-collection.postman_collection.json using the import button or file >> import
+
+Launch collection runner by clicking on the runner button
+
+Select the imported collection and run all the tests by clicking on Start run
