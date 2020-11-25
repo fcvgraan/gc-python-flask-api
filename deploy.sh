@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PROJECT_ID="recomed-gc-python-api-v1"
-PROJECT_NAME="recomed-gc-python-api"
+PROJECT_ID="gc-python-api-v1"
+PROJECT_NAME="gc-python-api"
 
 gcloud projects create $PROJECT_ID \
   --name="$PROJECT_NAME" \

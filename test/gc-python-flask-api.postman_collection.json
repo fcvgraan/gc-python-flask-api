@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "a474dbd9-0a08-44f8-94f7-905a0cfec16d",
-		"name": "recomed-api-collection",
+		"_postman_id": "ac1d607b-fef5-4b97-b878-5d0bd2a7c88f",
+		"name": "gc-python-flask-api",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -11,7 +11,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "8f5d46c7-353d-41e3-a465-e268e79abd65",
+						"id": "bf8b2d5e-c6c8-4208-a714-a3d5515c597c",
 						"exec": [
 							"pm.test(\"8 days including weekend and public holiday\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -56,7 +56,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "f179f80b-1139-44c5-a480-e7c4d8a545f2",
+						"id": "7b6060cf-8453-42eb-89ad-1663c22a3693",
 						"exec": [
 							"pm.test(\"1 exact work day 08h00 to 17h00\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -101,7 +101,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "d250785d-995f-432d-ae09-91df8628cc6f",
+						"id": "4a687fff-510d-4b0d-a2ee-e6fd614e5dd4",
 						"exec": [
 							"pm.test(\"1 work day 07h00 to 17h00\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -146,7 +146,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "c69f6aa6-ea7e-4b8b-80d7-5dbb7700e86d",
+						"id": "dacc09a9-068d-419e-ba4d-9f37d13219a0",
 						"exec": [
 							"pm.test(\"1 work day 07h00 to 18h00\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -191,7 +191,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "4df4b7d5-a1ec-4bd8-a744-3b51375512ac",
+						"id": "d4efc584-240c-4879-804a-c7bfe8b3f4ef",
 						"exec": [
 							"pm.test(\"1 work day 09h00 to 16h00\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -236,7 +236,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "c403c15b-2099-4e98-af2e-9ffa562ebce9",
+						"id": "a3e1ed89-16d9-4a01-a092-1fec16fb6093",
 						"exec": [
 							"pm.test(\"15 seconds during business hours\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -281,7 +281,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "e46d8f5d-ca1b-4fb4-b88d-864480c210ee",
+						"id": "8e2577ca-98a8-4a61-b8cc-b259cd9adabc",
 						"exec": [
 							"pm.test(\"15 minutes during business hours\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -326,7 +326,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "9a582619-3f24-4391-8316-75f460cf3b2a",
+						"id": "5aaed78e-e616-4803-ac0b-fd7e704735c2",
 						"exec": [
 							"pm.test(\"15 minutes during business hours\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -371,7 +371,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "1c0f105c-edf0-4417-92c1-ad0ba88bd99b",
+						"id": "e4ca496a-e01f-4356-9cfe-7fef0a991dfe",
 						"exec": [
 							"pm.test(\"15 seconds outside of business hours\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -416,7 +416,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "c4a259cf-825a-4a87-8624-56c9175fcbe1",
+						"id": "599b4b19-500e-405e-9f18-0a028bc4fda6",
 						"exec": [
 							"pm.test(\"15 minutes outside of business hours\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -461,7 +461,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "85aee432-a0b8-4372-910f-683174e52a01",
+						"id": "3df0b506-f98f-46de-bdf6-3956fc701df2",
 						"exec": [
 							"pm.test(\"future dates\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -506,7 +506,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "a7d5a8ae-fa58-4a43-8ea6-b4041e675cf6",
+						"id": "6186c51e-4388-457e-ad01-d809cf432e2c",
 						"exec": [
 							"pm.test(\"fraction of a second during business hours\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -551,7 +551,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "898e9d96-3fdb-4883-b7fa-e3a1bf8732fa",
+						"id": "ce29c59c-ba21-4d06-8932-61c0ca301e49",
 						"exec": [
 							"pm.test(\"fraction of a second outside of business hours\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -596,7 +596,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "70fca6c8-d482-49ff-a3db-61b539fb55d9",
+						"id": "ba63b953-8712-4e73-bb7f-ac50706470d0",
 						"exec": [
 							"pm.test(\"check that parameters are populated\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -631,7 +631,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "dfd2f645-1e65-4916-b2d1-c241dda89039",
+						"id": "84a52726-b9d8-48c0-9ed6-6cd6622a6f53",
 						"exec": [
 							"pm.test(\"check that parameters contain valid date string\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -676,7 +676,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "0c5360df-69f3-4cad-9944-5a615e2500c0",
+						"id": "0e3169d2-6c61-4ef2-85db-4c3f85679087",
 						"exec": [
 							"pm.test(\"POST request cannot be allowed\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -721,7 +721,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "648ce065-4724-4996-a530-d2fe89053220",
+						"id": "16842ab7-243b-4cc3-9118-9f29ed350796",
 						"exec": [
 							"pm.test(\"PUT request cannot be allowed\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -766,7 +766,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "1436d783-654b-42f1-8824-45266e6c176d",
+						"id": "37ad2795-15c2-4d18-84b9-a70f8bc00700",
 						"exec": [
 							"pm.test(\"DELETE request cannot be allowed\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -811,7 +811,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "227f5ded-3fed-4b19-89e1-cccdae5cba6d",
+						"id": "4b8fb1e6-a1e4-4e05-81af-6da867c07780",
 						"exec": [
 							"pm.test(\"PATCH request cannot be allowed\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -855,7 +855,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "06d2bb9a-e55f-431e-b124-98ce9a7c4fd8",
+				"id": "cd3ab58b-fbf0-4648-bcbc-b5ef09f6ce75",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -865,7 +865,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "99d9d036-7a45-484d-9164-35ba6cdd3c7c",
+				"id": "fd9bb5fd-1b41-43f3-b3a6-05d409aff0e7",
 				"type": "text/javascript",
 				"exec": [
 					""
